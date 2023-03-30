@@ -346,7 +346,7 @@ body{
 }
 
 .DTOID {
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     background: rgba(22, 20, 34, 0.75);
     border-radius: 29px;
     justify-content: center;
