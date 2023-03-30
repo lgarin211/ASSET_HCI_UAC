@@ -1,17 +1,19 @@
-.AREALOADNYA{
+@import url('https://fonts.googleapis.com/css2?family=Lato2:ital,wght@1,300&display=swap');
+
+.AREALOADNYA {
     background: #000;
     height: 100vh;
     width: 100vw;
     position: fixed;
 }
 
-.AREALOADNYA img{
+.AREALOADNYA img {
     width: 5vw;
     height: auto;
 }
 
 #load {
-    position: fixed     ;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: 10000;
@@ -28,7 +30,7 @@
 
 #load div {
     top: 40%;
-    position: fixed     ;
+    position: fixed;
     width: 20px;
     height: 36px;
     opacity: 0;

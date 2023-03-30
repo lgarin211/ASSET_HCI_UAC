@@ -1,28 +1,8 @@
-/* https://grid.layoutit.com/?id=16O7DUP */
 * {
     width: auto;
     /* height: 100%; */
     margin: 0px;
     /* border: red solid; */
-}
-
-.redError {
-    border: red solid;
-    /* shadow */
-    /* box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5); */
-}
-
-.LOGO {
-    grid-area: 1 / 1 / 2 / 4;
-}
-
-.LOGO img {
-    width: 80%;
-    padding: 2rem 20px;
-}
-
-.BACK {
-    grid-area: 5 / 1 / 6 / 4;
 }
 
 a {
@@ -39,45 +19,15 @@ a:hover {
     overflow: hidden;
 }
 
-
-::-webkit-scrollbar {
-    width: 10px;
-    /* height: 80%; */
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: rgba(18, 16, 94, 0.5);
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: rgba(18, 16, 94, 0.5);
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgba(18, 16, 94, 0.5);
-    height: 70%;
-  }
-
-.greenSuccess {
-    border: green solid;
-    /* shadow */
-    /* box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5); */
-}
-
-.rop{
-    font-size: 6px;
-    margin-bottom: 0rem !important; 
-}
-
 .registerJumbotron {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 5fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     background: url('https://lgarin211.github.io/ASSET_HCI_UAC/Agus/WPBackgount.png');
-    background-size: cover;
-    background-position: left;
+    background-size: 100% 100%;
+    background-position: center;
     height: 100vh;
     width: 100vw;
 }
@@ -105,22 +55,23 @@ a:hover {
 }
 
 .FORM-AREA {
-    grid-area: 1 / 3 / 7 / 7;
+    grid-area: 2 / 3 / 7 / 7;
     background: rgba(18, 16, 94, 0.5);
     /* border: black solid; */
     border-radius: 35px;
     width: 70%;
     height: 95%;
-    margin-top: 1rem;
-    overflow-y: scroll;
+
 }
 
 .Area1 {
+    /* border: blue solid; */
+    /* position: relative; */
     width: auto;
     height: auto;
     padding: 0 40px;
     padding-top: 1%;
-    margin-bottom: 0rem;
+    margin-bottom: 2rem;
 }
 
 .input_area {
@@ -128,20 +79,6 @@ a:hover {
     max-height: 15%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 0.5rem;
-}
-
-.input_area2 {
-    max-width: 100%;
-    max-height: 15%;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 0.5rem;
-}
-
-.input_area2 input {
-    height: 2rem;
-    width: 40px;
 }
 
 .input_area label {
@@ -209,7 +146,7 @@ a:hover {
     font-family: 'Gotu';
     font-style: normal;
     color: #D9D9D9;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .Area3 {
@@ -217,9 +154,9 @@ a:hover {
 }
 
 
-@media screen and (max-width: 800px) {
 
-    /* https://grid.layoutit.com/?id=bh21aqq */
+@media screen and (max-width: 700px) {
+
     .registerJumbotron {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -239,10 +176,11 @@ a:hover {
     }
 
     .LOGO {
-        grid-area: 1 / 1 / 2 / 7; 
+        grid-area: 1 / 1 / 2 / 7;
         position: relative;
     }
-    .LOGO img{
+
+    .LOGO img {
         width: 15rem;
         padding-left: 5rem;
     }
@@ -253,12 +191,12 @@ a:hover {
 
     .FORM-AREA {
         /* grid-area: 2 / 2 / 6 / 6; */
-         grid-area: 2 / 2 / 6 / 7; 
-         border-radius: 35px;
-         width: 95%;
-         height: 100%;
-         margin-top: 2rem;
-     
+        grid-area: 2 / 2 / 6 / 7;
+        border-radius: 35px;
+        width: 95%;
+        height: 100%;
+        margin-top: 2rem;
+
     }
 
     .Area1 {
@@ -266,6 +204,7 @@ a:hover {
         /* line-height: 55px; */
         margin-bottom: 0rem;
     }
+
 
     .Area2 {
         font-size: 1rem;
@@ -289,9 +228,11 @@ a:hover {
         border-radius: 10px;
         font-size: 1rem;
     }
-    .input_area2{
+
+    .input_area2 {
         margin: 0.5rem;
     }
+
     .input_area2 p {
         margin-top: 5px;
         font-size: 0.8rem;
@@ -318,8 +259,8 @@ a:hover {
         margin-bottom: 0.2rem;
         margin-bottom: 0.2rem;
     }
-    .BACK img{
+
+    .BACK img {
         width: 5rem;
     }
-
 }

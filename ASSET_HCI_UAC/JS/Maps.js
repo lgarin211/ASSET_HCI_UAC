@@ -50,7 +50,7 @@ datamaps = {
 }
 
 function loadmaps(lws) {
-    document.getElementById("nameBawah").innerHTML = document.getElementById("name").innerHTML = "// " + datamaps[lws].Name + " \\\\";
+    document.getElementById("nameBawah").innerHTML = document.getElementById("name").innerHTML = "" + datamaps[lws].Name + "";
     //document.getElementById("Text-Desk").innerHTML = datamaps[lws].Text;
     // document.getElementById("Text-Desk_bawah").innerHTML = datamaps[lws].Text;
     document.getElementById("LWOQP").style = "background-image: url(" + datamaps[lws].img +
