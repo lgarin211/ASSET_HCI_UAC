@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="./CSS/Register.css">
+    <link rel="stylesheet" href="./CSS/Animasi.css">
+</head>
+
+<body>
+    <div class="registerJumbotron">
+        <div class="VAC">
+            <div class="LOGO flowup">
+                <img src="https://lgarin211.github.io/ASSET_HCI_UAC/ASSET/CHARAKTERASSET/logo2.png" alt="">
+            </div>
+            <div class="BACK flowup3" onclick="blinkpot()">
+                <img src="https://lgarin211.github.io/ASSET_HCI_UAC/ASSET/CHARAKTERASSET/back.png" alt="">
+            </div>
+        </div>
+        <div class="FORM-AREA">
+            <div class="Area2">
+                <h1>Register</h1>
+            </div>
+            <div class="Area1">
+                <div class="input_area flowup">
+                    <label for="inp_username">Email</label>
+                    <input type="text" placeholder="Input Username / Email" id="email">
+                </div>
+                <div class="input_area flowup">
+                    <label for="inp_username">Password</label>
+                    <input type="password" placeholder="Input Password" id="password">
+                </div>
+                <div class="input_area flowup">
+                    <label for="inp_username">Username</label>
+                    <input type="text" placeholder="Input Username" id="username">
+                </div>
+                <div class="input_area flowup">
+                    <label for="inp_username">Age</label>
+                    <input type="Number" placeholder="Input Your AGE" id="Age">
+                </div>
+                <div class="input_area2 flowup">
+                    <input type="checkbox" id="accpt">
+                    <p><span id="shpiaccpt"></span> I have read and agree to the Terms of Service and Privacy Policy</p>
+                </div>
+            </div>
+            <div class="Area3">
+                <button class="flowup" id="btnclip" onclick="btnclip()">
+                    Register
+                </button>
+                <p>
+                    Already have account? Log In
+                </p>
+                <button class="flowup1">
+                    <a href="./Login.html">LogIn</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="./JS/Form.js"></script>
+</body>
+
+</html>

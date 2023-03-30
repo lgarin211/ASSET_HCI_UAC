@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+
+* {
+    height: 100%;
+    width: auto;
+    /* border: red solid; */
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background: url("https://lgarin211.github.io/ASSET_HCI_UAC/ASSET/CHARAKTERASSET/teyvatfinal.png");
+}
+
+#LWOQP {
+    display: none;
+}
+
+.Autpil {
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
+.Autpil:hover {
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.container2 {
+    background: url("./../Agus/teyvat\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 0.4fr 1.1fr 1.2fr 1.2fr 1.1fr 1.2fr 1.2fr 1.2fr 0.4fr;
+    grid-template-rows: 0.4fr 1fr 1fr 1.6fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    height: 110vh;
+}
+
+.IMGMAPS {
+    margin-top: 10vh;
+    grid-area: 1 / 6 / 7 / 9;
+    display: flex;
+    flex-direction: column;
+}
+
+.IMGMAPS .fortex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    height: 15%;
+    margin: 1rem 0rem;
+    overflow: hidden;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+.IMGMAPS img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.POSTl {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.7fr 1.4fr 1.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: 1 / 2 / 7 / 5;
+    margin-top: 8vh;
+    background: url("./../Agus/Group\ 64.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 90vh;
+
+}
+
+.FEXLIMP {
+    grid-area: 2 / 1 / 3 / 5;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.FEXLIMP h1 {
+    height: auto;
+    font-family: 'Koulen';
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 4rem;
+    text-shadow: 0px 0px 10px #FFFFFF;
+}
+
+.TARTAG {
+    grid-area: 2 / 1 / 5 / 5;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.TARTAG p {
+    height: auto;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px #FFFFFF;
+    padding: 9rem;
+    /* padding-left: 7rem; */
+
+}
+
+
+
+/* grid.layoutit.com?id=Tz0kSSA */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 0.3fr 1.7fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    background: url("../Agus/Monstadt.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+
+}
+
+.LIVEPOIN {
+    margin-top: 5vh;
+    /* border: red solid; */
+    top: vh;
+    grid-area: 1 / 4 / 2 / 7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.LIVEPOIN h1 {
+    height: auto;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 3rem;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 0px 10px #7FE5DC;
+}
+
+
+.AREATEXT {
+    grid-area: 2 / 2 / 5 / 9;
+    background: url("./../Agus/elemen\ \(38\)\ 1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+}
+
+.LIVEPOIN img {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.AREATEXT h2 {
+    height: auto;
+    width: 70%;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0px 0px 10px #000;
+    font-family: 'Cabin';
+}
+
+.IMGFLT {
+    display: grid;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: 6 / 2 / 8 / 9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.IMGFLT img {
+    width: 30%;
+    height: auto;
+    height: -webkit-fill-available;
+    object-fit: cover;
+    border-radius: 7%;
+}
+
+.moveback,
+.movenext {
+    width: 10%;
+    margin-top: 25vh;
+}
+
+.moveback img {
+    width: 7rem;
+    height: auto;
+}
+
+.movenext img {
+    width: 7rem;
+    height: auto;
+}
+
+/* under 700 */
+@media screen and (max-width: 750px) {
+    .TARTAG p {
+        padding: 4rem !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+    }
+
+    .POSTl {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-area: 1 / 1 / 4 / 7;
+    }
+
+    .POSTl {
+        height: 65vh !important;
+        width: 100vw !important;
+    }
+
+    .FEXLIMP {
+        grid-area: 1 / 3 / 2 / 6;
+        width: 100vw;
+        margin-top: 3rem;
+    }
+
+    .TARTAG {
+        grid-area: 2 / 1 / 7 / 8;
+    }
+
+    .IMGMAPS {
+        grid-area: 4 / 1 / 6 / 7;
+        margin-top: 0vh;
+    }
+
+    .IMGMAPS .fortex {
+        padding: 1rem;
+        margin: 0.1rem;
+    }
+
+
+    #name {
+        font-size: 3rem;
+        /* margin-top: 10vh; */
+    }
+
+    .TARTAG p {
+        height: auto;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 1rem;
+        color: #FFFFFF;
+        text-shadow: 0px 0px 10px #FFFFFF;
+        /* padding: 9rem; */
+    }
+
+    .LIVEPOIN {
+        margin-top: 4vh;
+        /* border: red solid; */
+        width: 60vw;
+    }
+
+    .LIVEPOIN h1 {
+        font-size: 2rem;
+    }
+
+    .AREATEXT h2 {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,268 @@
+/* https://grid.layoutit.com/?id=16O7DUP */
+* {
+    width: auto;
+    /* height: 100%; */
+    margin: 0px;
+    /* border: red solid; */
+}
+
+a {
+    text-decoration: none ;
+    color: #D9D9D9 ;
+    overflow: hidden;
+}
+
+/* postit */
+
+a:hover {
+    color: #f7f3f3;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.registerJumbotron {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 5fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    background: url('./../Agus/WPBackgount.png');
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.VAC {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: 1 / 1 / 7 / 2;
+}
+
+.LOGO {
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+.LOGO img {
+    width: 80%;
+    padding: 2rem 20px;
+}
+
+.BACK {
+    grid-area: 5 / 1 / 6 / 4;
+}
+
+.FORM-AREA {
+    grid-area: 2 / 3 / 7 / 7;
+    background: rgba(18, 16, 94, 0.5);
+    /* border: black solid; */
+    border-radius: 35px;
+    width: 70%;
+    height: 95%;
+
+}
+
+.Area1 {
+    /* border: blue solid; */
+    /* position: relative; */
+    width: auto;
+    height: auto;
+    padding: 0 40px;
+    padding-top: 1%;
+    margin-bottom: 2rem;
+}
+
+.input_area {
+    max-width: 100%;
+    max-height: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input_area label {
+    width: 50%;
+    height: 40px;
+    font-family: 'Iceberg';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.input_area input {
+    width: 99%;
+    height: 55px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.Area2 {
+    height: auto;
+    font-family: 'Gotu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 106px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.Area1 p {
+    height: auto;
+    font-family: 'Gotu';
+    font-style: normal;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.Area3 p {
+    height: auto;
+    font-family: 'Gotu';
+    font-style: normal;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.Area3 button {
+    position: relative;
+    /* height: auto; */
+    background: url("./../project/elemen\ \(2\).png");
+    background-size: 100% 100%;
+    border: none;
+    width: 50%;
+    height: 4rem;
+    align-self: center;
+    left: 25%;
+    font-size: 2rem;
+    font-family: 'Gotu';
+    font-style: normal;
+    color: #D9D9D9;
+    margin-bottom: 1rem;
+}
+
+.Area3 {
+    height: auto;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    /* https://grid.layoutit.com/?id=bh21aqq */
+    .registerJumbotron {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+    }
+
+    .VAC {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-area: 1 / 1 / 7 / 7;
+    }
+
+    .LOGO {
+        grid-area: 1 / 1 / 2 / 7;
+        position: relative;
+    }
+
+    .LOGO img {
+        width: 15rem;
+        padding-left: 5rem;
+    }
+
+    .BACK {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+
+    .FORM-AREA {
+        /* grid-area: 2 / 2 / 6 / 6; */
+        grid-area: 2 / 2 / 6 / 7;
+        border-radius: 35px;
+        width: 95%;
+        height: 100%;
+        margin-top: 2rem;
+
+    }
+
+    .Area1 {
+        /* font-size: 1rem; */
+        /* line-height: 55px; */
+        margin-bottom: 0rem;
+    }
+
+
+    .Area2 {
+        font-size: 1rem;
+        line-height: 55px;
+    }
+
+    .input_area {
+        margin: 0px;
+    }
+
+    .input_area label {
+        width: 50%;
+        height: 25px;
+        font-size: 1rem;
+    }
+
+    .input_area input {
+        width: 100%;
+        height: 25px;
+        background: #D9D9D9;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+
+    .input_area2 {
+        margin: 0.5rem;
+    }
+
+    .input_area2 p {
+        margin-top: 5px;
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+        margin-bottom: 0rem;
+    }
+
+    .input_area p {
+        margin-top: 5px;
+        font-size: 0.8rem;
+        margin-bottom: 0rem;
+    }
+
+    .Area3 button {
+        width: 50%;
+        height: 2rem;
+        font-size: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .Area3 p {
+        margin-top: 5px;
+        font-size: 0.8rem;
+        margin-bottom: 0.2rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .BACK img {
+        width: 5rem;
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="./CSS/Login.css">
+    <link rel="stylesheet" href="./CSS/Animasi.css">
+</head>
+
+<body>
+    <div class="registerJumbotron">
+        <div class="VAC">
+            <div class="LOGO flowup">
+                <img src="https://lgarin211.github.io/ASSET_HCI_UAC/ASSET/CHARAKTERASSET/logo2.png" alt="">
+            </div>
+            <div class="BACK flowup3" onclick="blinkpot()">
+                <img src="https://lgarin211.github.io/ASSET_HCI_UAC/ASSET/CHARAKTERASSET/back.png" alt="">
+            </div>
+        </div>
+        <div class="FORM-AREA">
+            <div class="Area2">
+                <h1>Account Login</h1>
+            </div>  
+            <div class="Area1">
+                <div class="input_area flowup">
+                    <label for="inp_username">Username/Email</label>
+                    <input  type="text" id="uname" placeholder="Input Username / Email" >
+                </div>
+                <div class="input_area flowup">
+                    <label for="inp_username">Password</label>
+                    <input required type="password" id="password" placeholder="Input Password" >
+                </div>
+                <p>I have read and agree to the Terms of Service and Privacy Policy</p>
+            </div>
+            <div class="Area3">
+                <button class="flowup2" onclick="pwologin()">
+                    LOGIN
+                </button>
+                <p>
+                    Don`t have account? Register Now
+                </p>
+                <button class="flowup">
+                    <a href="Register.html">
+                        Register
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./JS/Form.js"></script>
+</body>
+
+</html>

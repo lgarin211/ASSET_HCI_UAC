@@ -1,0 +1,369 @@
+* {
+    width: auto;
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+    /* border:red solid; */
+    color: #fff;
+
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+
+}
+
+body {
+    /* background: greenyellow; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ELEMENTACTIVE */
+.FIX1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    height: 90vh;
+    color: #fff;
+}
+
+.IMGAREAACVIVE {
+    grid-area: 1 / 1 / 10 / 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.AREAACTVEMAPS {
+    grid-area: 3 / 1 / 4 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.MAPSLIST {
+    grid-area: 4 / 1 / 9 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+}
+
+.menunya{
+    overflow: hidden;
+
+}
+
+.MAPSLIST .conve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://lgarin211.github.io/ASSET_HCI_UAC/ASSET/CHARAKTERASSET/elemen%20(17) 1.png");
+    background-size: 80% 150%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.MAPSLIST .conve h1 {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    margin: 5px;
+}
+
+.ACTIVEPAT {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.3fr 0.4fr 1.3fr 0.2fr 1.8fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: 3 / 8 / 9 / 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ACTIVEPAT .NAMECHT {
+    height: auto;
+    grid-area: 1 / 1 / 2 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+}
+
+.WEPONACTIVE {
+    grid-area: 3 / 1 / 4 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.ELEMENTACTIVE {
+    grid-area: 5 / 1 / 7 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.ELEMENTACTIVE img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+
+.flepiti {
+    width: 100vw;
+    height: 25vh;
+    background: linear-gradient(90deg, rgba(17, 34, 105, 0.39) 0%, rgba(17, 34, 105, 0.1092) 35.21%, rgba(35, 48, 102, 0.1248) 65.42%, rgba(17, 34, 105, 0.39) 100%);
+    ;
+    display: flex;
+    bottom: 0vh;
+    position: relative;
+    transition: 1s;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: unset;
+
+}
+
+.flepiti:hover {
+    bottom: 30vh;
+    height: 50vh;
+    transition: 1s;
+    /* border: red solid; */
+}
+
+.moveback,
+.movenext {
+    /* border: blue solid; */
+    width: 10%;
+    height: auto;
+}
+
+.areaPat {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    gap: 3rem;
+    overflow: hidden;
+}
+
+/* https://grid.layoutit.com/?id=FxeU3DP */
+.mostpoinscard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: auto;
+    overflow: hidden;
+}
+
+.mostpoinscard .CRON {
+    height: 15rem;
+    width: 10rem;
+    background: url("./../project/elemen\ \(16\).png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mostpoinscard .COSTPON {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.TEXTPOS {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.TEXTPOS h1 {
+    font-size: 1.5rem;
+}
+
+.mostpoinscard img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 7rem;
+    /* object-fit: cover; */
+    /* height: auto; */
+    border-radius: 15%;
+    /* margin: 0.5rem; */
+    object-position: center;
+    overflow: hidden;
+}
+
+
+.CRON {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: 1 / 1 / 4 / 6;
+    overflow: hidden;
+}
+
+.COSTPON {
+    grid-area: 1 / 1 / 4 / 6;
+    overflow: hidden;
+}
+
+.TEXTPOS {
+    grid-area: 4 / 1 / 5 / 6;
+    overflow: hidden;
+}
+
+
+.Rcontainer {
+    display: grid;
+    grid-template-columns: 0.2fr 1.4fr 1.4fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    height: 100vh;
+}
+
+.CHARTBTG {
+    grid-area: 1 / 1 / 6 / 8;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.CHARTBTG img {
+    height: 100%;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.DTEXT {
+    grid-area: 2 / 2 / 5 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("./../Agus/ChartBorder.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120%;
+}
+
+.DTEXT p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    padding: 5rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+    .DTEXT {
+        grid-area: 2 / 2 / 4 / 6;
+    }
+
+    .DTEXT p {
+        font-size: 1rem;
+        font-weight: 400;
+        color: white;
+        text-shadow: 0px 0px 5px black;
+        padding: 2rem;
+        text-align: center
+    }
+
+    .MAPSLIST {
+        grid-area: 7 / 1 / 10 / 8;
+    }
+
+    .MAPSLIST h1 {
+        font-size: 1.3rem;
+        height: auto !important;
+    }
+
+    .ACTIVEPAT {
+        grid-area: 2 / 7 / 8 / 11;
+    }
+
+    .ACTIVEPAT h1,
+    h2 {
+        font-size: 1rem !important;
+    }
+
+    .ACTIVEPAT div {
+        margin-bottom: 0rem !important;
+    }
+
+    .areaPat {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .mostpoinscard {
+        transform: scale(0.7);
+        overflow: initial;
+        width: 30%;
+    }
+
+    .mostpoinscard .CRON {
+        height: 11rem;
+        width: 7rem;
+    }
+
+    .mostpoinscard img {
+        width: 5rem;
+    }
+
+    .TEXTPOS h1 {
+        font-size: 1rem;
+    }
+
+    .moveback img{
+        width: 100%;
+    }
+
+    .movenext img{
+        width: 100%;
+    }
+
+    .IMGAREAACVIVE img{
+        object-fit: cover;
+        height: 100%;
+    }
+
+}

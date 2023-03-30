@@ -1,0 +1,169 @@
+.navCast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(15, 16, 91, 0.7);
+    overflow: visible;
+    z-index: 100;
+    overflow: visible;
+}
+
+.active{
+    border-bottom: solid #E5E5E5;
+    overflow: visible;
+}
+
+.listcat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 60vw;
+    overflow: visible;
+}
+
+a{
+    text-decoration: none;
+    color: #D9D9D9;
+    overflow: visible;
+}
+
+
+a:hover {
+    color: #00D1FF;
+    text-decoration: none;
+    border-bottom: solid #E5E5E5;
+    overflow: visible;
+}
+
+
+.listcat li {
+    list-style: none;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+
+.listcat li p {
+    font-size: 2rem;
+    color: #E5E5E5;
+    text-decoration: none;
+    height: auto;
+    text-align: center;
+    overflow: visible;
+}
+
+
+.logo {
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 10vw;
+    overflow: visible;
+}
+
+.logo img {
+    width: 10rem;
+    height: auto;
+    /* overflow: visible; */
+}
+
+.account {
+    background: #28568D;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    /* overflow: visible; */
+}
+
+.account img {
+    width: 4rem;
+    height: auto;
+    /* margin: 1rem; */
+    border-radius: 50%;
+    transform: scale(0.8);
+    border: #00D1FF 2px solid;
+    /* overflow: visible; */
+}
+
+.account p {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    overflow: visible;
+}
+
+@media screen and (max-width: 800px) {
+
+    .listcat li p {
+        text-align: left;
+        overflow: visible;
+    }
+    .navCast {
+        height: 15vh;
+        justify-content: center;
+        flex-direction: column;
+        transition: 1s;
+
+        overflow: visible;
+    }
+
+    .menunya {
+        width: 100vw;
+        overflow: visible;
+    }
+
+    .navCast:hover {
+        height: 60vh;
+        /* transisi */
+        transition: 1s;
+        overflow: visible;
+    }
+
+    .posito {
+        display: none !important;
+        overflow: visible;
+    }
+
+    /* jika navCast Hover .account juga hover*/
+
+
+
+    .navCast .logo {
+        margin-left: 0rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        overflow: visible;
+    }
+
+    .listcat {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 1rem;
+        width: 60vw;
+        overflow: visible;
+    }
+
+    .account {
+        background: #28568D;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        overflow: visible;
+    }
+
+
+}

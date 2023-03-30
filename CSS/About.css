@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@600&family=Kufam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@600&display=swap');
+
+* {
+    height: 100%;
+    margin: 0;
+    background: url("https://lgarin211.github.io/ASSET_HCI_UAC/ASSET/CHARAKTERASSET/awan2.png");
+    border: red solid;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden !important;
+}
+
+.Dtext-center {
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    width: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    background-color: #0B0F2E;
+}
+
+.bg {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: 1 / 1 / 12 / 16;
+    background-image: url("https://lgarin211.github.io/ASSET_HCI_UAC/ASSET/CHARAKTERASSET/frame.png");
+    background-size: 100% 107%;
+    margin: 0;
+
+    background-repeat: no-repeat;
+}
+
+.judul1 {
+    width: 100%;
+    grid-area: 2 / 6 / 3 / 11;
+    font-family: 'Kufam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 50px #FFFFFF;
+    padding-top: 5%;
+}
+
+.about1 {
+    width: 100%;
+    grid-area: 3 / 5 / 8 / 12;
+    border-radius: 12px;
+}
+
+.subjudul1 {
+    width: 100%;
+    grid-area: 7 / 6 / 8 / 11;
+    background-image: url("https://lgarin211.github.io/ASSET_HCI_UAC/ASSET/CHARAKTERASSET/elemen (2).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.about1 img {
+    width: 100%;
+    border-radius: 7%;
+}
+
+.subjudul1 p {
+    width: 100%;
+    margin-top: 4%;
+}
+
+.desc p {
+    width: 100%;
+    margin-left: 13%;
+    margin-top: 11%;
+    margin-right: 13%;
+}
+
+.desc {
+    width: 100%;
+    grid-area: 8 / 5 / 11 / 12;
+    background-image: url("https://lgarin211.github.io/ASSET_HCI_UAC/ASSET/CHARAKTERASSET/elemen (38) 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 1%;
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.back {
+    width: 100%;
+    grid-area: 5 / 4 / 6 / 5;
+}
+
+.next {
+    width: 100%;
+    grid-area: 5 / 12 / 6 / 13;
+}
+
+
+.container2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    background-color: #0B0F2E;
+}
+
+.bg2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-area: 1 / 1 / 12 / 16;
+    background-image: url("https://lgarin211.github.io/ASSET_HCI_UAC/ASSET/CHARAKTERASSET/frame.png");
+    background-size: 100% 104%;
+}
+
+.judul2 {
+    width: 100%;
+    grid-area: 3 / 5 / 4 / 12;
+    font-family: 'Kufam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 2px 10px rgba(255, 255, 255, 0.5);
+}
+
+.ss2 {
+    width: 100%;
+    grid-area: 4 / 5 / 10 / 12;
+}
+
+.ss2 img {
+    width: 100%;
+    border-radius: 7%;
+}
+
+.back2 {
+    width: 100%;
+    grid-area: 6 / 4 / 8 / 4;
+}
+
+.next2 {
+    width: 100%;
+    grid-area: 6 / 12 / 8 / 13;
+}
+
+.top2 {
+    width: 100%;
+    grid-area: 1 / 1 / 2 / 16;
+}
+
+
+
+.container3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    background: url("https://lgarin211.github.io/ASSET_HCI_UAC/ASSET/CHARAKTERASSET/bgakhir.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.top3 {
+    width: 100%;
+    grid-area: 1 / 1 / 2 / 16;
+    width: 100%;
+    height: 50%;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.bg3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-area: 1 / 1 / 12 / 16;
+}
+
+.letsgo3 {
+    width: 100%;
+    grid-area: 5 / 4 / 6 / 13;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+
+.logo3 {
+    width: 100%;
+    grid-area: 3 / 5 / 5 / 12;
+    filter: drop-shadow(0px 0px 15px #000000);
+}
+
+.logo3 img {
+    width: 100%;
+    width: 50%;
+    height: 95%;
+}
+
+.top3 img {
+    background-size: 100% 100%;
+
+}
+
+.multiple3 {
+    width: 100%;
+    grid-area: 6 / 5 / 7 / 12;
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.1);
+}
+
+.next:hover {
+    width: 100%;
+    filter: drop-shadow(0px 0px 10px #FFFFFF);
+
+}
+
+.next2:hover {
+    width: 100%;
+    filter: drop-shadow(0px 0px 10px #FFFFFF);
+}
+
+.plt13 {
+    width: 100%;
+    grid-area: 7 / 3 / 8 / 5;
+}
+
+.plt13:hover {
+    width: 100%;
+    filter: drop-shadow(0px 0px 10px #FFFFFF);
+}
+
+
+.plt23 {
+    width: 100%;
+    grid-area: 7 / 6 / 8 / 8;
+}
+
+.plt23:hover {
+    width: 100%;
+    filter: drop-shadow(0px 0px 10px #FFFFFF);
+}
+
+.plt33 {
+    width: 100%;
+    grid-area: 7 / 9 / 8 / 11;
+}
+
+.plt33:hover {
+    width: 100%;
+    filter: drop-shadow(0px 0px 10px #FFFFFF);
+}
+
+.plt43 {
+    width: 100%;
+    grid-area: 7 / 12 / 8 / 14;
+}
+
+.plt43:hover {
+    width: 100%;
+    filter: drop-shadow(0px 0px 10px #FFFFFF);
+}
+
+
+
+
+/* COLOSAL */
+
+.colosal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://lgarin211.github.io/ASSET_HCI_UAC/ASSET/CHARAKTERASSET/teyvatabout.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dLOGO{
+    border: red solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.dLOGO img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.DTOID {
+    margin-top: 10vh;
+    background: rgba(22, 20, 34, 0.75);
+    border-radius: 29px;
+    justify-content: center;
+    margin-left: 2%;
+
+    /* position: absolute; */
+    width: 40%;
+    height: 30%;
+    /* left: 29%;
+    top: 50%; */
+
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400px;
+    font-size: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 10px #000000;
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .DTOID {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .DTOID p{
+        margin-top: 10% !important;
+        align-self: center;
+        font-size: 1.3rem;
+        margin: 0.1rem;
+    }
+}
