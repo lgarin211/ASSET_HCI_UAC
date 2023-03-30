@@ -17,7 +17,7 @@ a{
 
 body {
 
-    background: url("../Agus/Group\ 63.png");
+    background: url("https://lgarin211.github.io/ASSET_HCI_UAC/Agus/Group\ 63.png");
     background-size: 100% cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -29,7 +29,7 @@ body {
 }
 
 .Head1 {
-    /* background: url("../Agus/Frame\ 2.png"); */
+    /* background: url("https://lgarin211.github.io/ASSET_HCI_UAC/Agus/Frame\ 2.png"); */
     background-attachment: local;
     background-size: 100% 100%; 
     display: grid;
@@ -100,7 +100,7 @@ body {
 
 .BTN-AREA button {
     position: relative;
-    background: url(./../project/elemen\ \(2\).png);
+    background: url("https://lgarin211.github.io/ASSET_HCI_UAC/project/elemen\ \(2\).png");
     background-size: 100% 100%;
     border: none;
     width: 25%;
@@ -252,7 +252,7 @@ body {
     align-items: center;
     text-align: center;
     height: 100%;
-    background: url("./../project/elemen\ \(8\).png");
+    background: url("https://lgarin211.github.io/ASSET_HCI_UAC/project/elemen\ \(8\).png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     /* width: 60%; */
@@ -275,7 +275,7 @@ body {
     align-items: center;
     flex-direction: column;
     color: #FFFFFF;
-    background: url("./../Agus/L4.png");
+    background: url("https://lgarin211.github.io/ASSET_HCI_UAC/Agus/L4.png");
     background-size: 80% 40%;
     background-repeat: no-repeat;
     background-position: center 90%;
@@ -340,17 +340,17 @@ body {
     }
 
     .LWOt{
-        background: url("./../Agus/AWT.png");
+        background: url("https://lgarin211.github.io/ASSET_HCI_UAC/Agus/AWT.png");
         background-size: cover;
     }
 
     .ArmitailCASGT {
-        background: url("./../Agus/onebg.png")
+        background: url("https://lgarin211.github.io/ASSET_HCI_UAC/Agus/onebg.png")
         /* background-size: cover; */
     }
 
     .Head1 {
-        background: url("./../project/HOST2.png");
+        background: url("https://lgarin211.github.io/ASSET_HCI_UAC/project/HOST2.png");
         /* border: red solid; */
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -367,7 +367,7 @@ body {
         grid-auto-flow: row;
         height: 60vh;
 
-        background: url("./../Agus/AWT.png");
+        background: url("https://lgarin211.github.io/ASSET_HCI_UAC/Agus/AWT.png");
     }
 
     .BTN-AREA {
@@ -404,7 +404,7 @@ body {
         align-items: center;
         flex-direction: column;
         color: #FFFFFF;
-        background: url(./../Agus/L4.png);
+        background: url("https://lgarin211.github.io/ASSET_HCI_UAC/Agus/L4.png");
         background-size: 80% 40%;
         background-repeat: no-repeat;
         background-position: center 90%;

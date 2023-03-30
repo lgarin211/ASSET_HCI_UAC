@@ -5,10 +5,9 @@
     height: 100%;
     margin: 0;
     background: url("https://lgarin211.github.io/ASSET_HCI_UAC/ASSET/CHARAKTERASSET/awan2.png");
-    border: red solid;
 }
 
-body{
+body {
     width: 100vw;
     overflow-x: hidden !important;
 }
@@ -20,7 +19,7 @@ body{
 }
 
 .container {
-    width: 100vh;
+    width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -330,8 +329,7 @@ body{
     background-repeat: no-repeat;
 }
 
-.dLOGO{
-    border: red solid;
+.dLOGO {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -379,10 +377,97 @@ body{
         justify-content: center;
 
     }
-    .DTOID p{
+
+    .bg2{
+        background-size: 100% 75%;
+        background-repeat: no-repeat;
+    }
+    
+    .DTOID p {
         margin-top: 10% !important;
         align-self: center;
         font-size: 1.3rem;
         margin: 0.1rem;
+    }
+
+    .judul1 p {
+        font-size: 50%;
+        margin-top: 10%;
+
+    }
+
+    .next img {
+        width: 2rem;
+    }
+
+    .about1 img {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .subjudul1 p {
+        font-size: 25%;
+        margin-top: -8%;
+    }
+
+    .subjudul1 {
+        grid-area: 5 / 6 / 8 / 11;
+    }
+
+    .desc {
+        grid-area: 6 / 5 / 11 / 12;
+        background-size: 100% 60%;
+    }
+
+    .desc p {
+        font-size: 50%;
+        padding-top: 20%;
+    }
+
+    .desc img {
+        width: 5rem;;
+    }
+
+
+
+
+    .top3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    p a img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .next2 {
+        grid-area: 6 / 15 / 8 / 14;
+    }
+
+    .next2 img {
+        width: 2rem;
+        height: auto;
+    }
+
+    .judul2 {
+        width: 100%;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .bg2 {
+        grid-area: 1 / 1 / 12 / 16;
+    }
+
+
+    .logo3 img {
+        height: auto;
+    }
+
+    .ss2 img {
+        height: 50%;
+        width: 100%;
     }
 }

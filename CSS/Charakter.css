@@ -174,7 +174,6 @@ body {
     overflow: hidden;
 }
 
-/* https://grid.layoutit.com/?id=FxeU3DP */
 .mostpoinscard {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -186,7 +185,7 @@ body {
 .mostpoinscard .CRON {
     height: 15rem;
     width: 10rem;
-    background: url("./../project/elemen\ \(16\).png");
+    background: url("https://lgarin211.github.io/ASSET_HCI_UAC/project/elemen\ \(16\).png");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -275,7 +274,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("./../Agus/ChartBorder.png");
+    background: url("https://lgarin211.github.io/ASSET_HCI_UAC/Agus/ChartBorder.png");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;

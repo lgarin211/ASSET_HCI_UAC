@@ -75,7 +75,7 @@ a:hover {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    background: url('./../Agus/WPBackgount.png');
+    background: url('https://lgarin211.github.io/ASSET_HCI_UAC/Agus/WPBackgount.png');
     background-size: cover;
     background-position: left;
     height: 100vh;
@@ -198,7 +198,7 @@ a:hover {
 .Area3 button {
     position: relative;
     /* height: auto; */
-    background: url("./../project/elemen\ \(2\).png");
+    background: url("https://lgarin211.github.io/ASSET_HCI_UAC/project/elemen\ \(2\).png");
     background-size: 100% 100%;
     border: none;
     width: 50%;
